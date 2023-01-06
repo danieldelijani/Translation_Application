@@ -1,4 +1,4 @@
-# Translation_Application
+# Translation Application
 Full-stack web application for translating English to Spanish.
 
 The frontend of the application is developed with Angular, and the backend uses Node and Express.
