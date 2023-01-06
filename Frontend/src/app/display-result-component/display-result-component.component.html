@@ -1,0 +1,6 @@
+<div *ngIf="!(api_result.length === 1 && api_result[0] === '')">
+    <p>Result of API Call:</p>
+    <li *ngFor="let word of api_result; let i = index">
+        {{word}}
+    </li>
+</div>

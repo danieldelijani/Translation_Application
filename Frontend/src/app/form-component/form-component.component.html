@@ -1,0 +1,4 @@
+<form minlength="8" (ngSubmit)="onSubmit()" #f="ngForm">
+    <input type="text" [(ngModel)]="englishText" id="english" name="english" required ngModel>
+    <button type="submit" [disabled]="!f.form.valid">Query</button>
+</form>
